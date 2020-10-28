@@ -1,0 +1,44 @@
+.vjs-pausedAd-container {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin: auto;
+    /*width: 30%;*/
+    /*height: 60%;*/
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+    background: #333;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5), 1px 1px 1px rgba(255,255,255,0.2) inset;
+    display:none;
+}
+.vjs-pausedAd-container.in {
+	display: block;
+}
+
+.vjs-pausedAd {
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    background: #000;
+    margin-bottom: 10px;
+}
+
+.vjs-pausedAd-resume {
+    display: block;
+    width: 30%;
+    margin:auto;
+    padding: 5px 15px;
+    color: #ccc;
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    border-radius: 3px;
+}
+
+.vjs-pausedAd-resume:hover {
+    background: rgba(0,0,0,0.3);
+}
